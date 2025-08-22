@@ -16,20 +16,53 @@
         </ul>
     </nav>
 
-    <section class="home" id="home">
-       <h1>HELLO WORLD</h1>
-    </section>
+   <section class="home" id="home">
+     <canvas id="startupParticles" aria-hidden="true"></canvas>
+  <div class="home-content">
+    <h1>🚀 Kidpreneur</h1>
+    <h2 id="tagline"></h2>
 
-    <section class="about" id="about">
-        <!-- About section -->
-    </section>
+    <p>
+      Turn your ideas into reality! Kidpreneur is a platform where students 
+      can pitch, share, and showcase their startup dreams to inspire the world.
+    </p>
+    <div class="home-buttons">
+      <a href="#project-submit" class="btn-primary">Submit Your Idea</a>
+      <a href="#ideas" class="btn-secondary">Explore Ideas</a>
+    </div>
+  </div>
 
-    <section class="ideas" id="ideas">
-        <!-- Ideas showcase -->
-    </section>
+  <div class="home-image">
+    <img src="ASSETS/image-removebg-preview.png" alt="Kidpreneur illustration">
+  </div>
+</section>
+<div class="wave-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,80 C480,150 960,0 1440,80 L1440,150 L0,150Z" 
+          fill="#007bff" />
+  </svg>
+</div>
 
-    <section class="project-submit" id="project-submit">
-        <!-- Project submission form -->
-    </section>
+
+<section class="About">
+
+</section>
+
+
+
+<script>
+    const text = "A Launchpad for Young Innovators";
+let i=0;
+function typeWriter(){
+  if(i < text.length){
+    document.getElementById("tagline").textContent += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, 80);
+  }
+}
+window.onload = typeWriter;
+
+</script>
+
 </body>
 </html>
