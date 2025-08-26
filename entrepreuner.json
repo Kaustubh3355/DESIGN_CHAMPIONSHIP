@@ -1,0 +1,445 @@
+{
+  "entrepreneurs": [
+    {
+      "name": "Dyumna Madan",
+      "age_started": 15,
+      "company": "Project Clay",
+      "sector": "Technology",
+      "bio": "Co-founder of Project Clay, a startup invested by Anupam Mittal on Shark Tank India.",
+      "image_url": "https://example.com/images/dyumna_madan.jpg",
+      "profile_url": "https://www.linkedin.com/in/dyumna-madan-/"
+    },
+    {
+      "name": "Aadit Palicha",
+      "age_started": 21,
+      "company": "Zepto",
+      "sector": "Technology / Quick Commerce",
+      "bio": "Co-founder and CEO of Zepto, a pioneering 10-minute grocery delivery service valued at over $1 billion.",
+      "image_url": "https://example.com/images/aadit_palicha.jpg",
+      "profile_url": "https://www.zepto.com"
+    },
+    {
+      "name": "Kaivalya Vohra",
+      "age_started": 21,
+      "company": "Zepto",
+      "sector": "Technology / Quick Commerce",
+      "bio": "Co-founder and CTO of Zepto, a unicorn startup revolutionizing quick commerce in India.",
+      "image_url": "https://example.com/images/kaivalya_vohra.jpg",
+      "profile_url": "https://www.zepto.com"
+    },
+    {
+      "name": "Shivom Sood",
+      "age_started": 15,
+      "company": "Project Clay",
+      "sector": "Technology",
+      "bio": "Co-founder of Project Clay, creating innovative tech solutions and featured on Shark Tank India.",
+      "image_url": "https://example.com/images/shivom_sood.jpg",
+      "profile_url": "https://www.linkedin.com/in/shivom-sood-/"
+    },
+    {
+      "name": "Reuel Kharbudnah",
+      "age_started": 19,
+      "company": "EcoBricks",
+      "sector": "Sustainability / Manufacturing",
+      "bio": "Founder of EcoBricks, a company focused on creating sustainable building materials from recycled plastic.",
+      "image_url": "https://example.com/images/reuel_kharbudnah.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Lahunlang Sohliya",
+      "age_started": 20,
+      "company": "Wheelchair Accessible Vehicles",
+      "sector": "Mobility / Accessibility",
+      "bio": "Founder of a venture dedicated to converting vehicles to be wheelchair-accessible, improving mobility for people with disabilities.",
+      "image_url": "https://example.com/images/lahunlang_sohliya.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Keshav Reddy",
+      "age_started": 22,
+      "company": "Equal",
+      "sector": "FinTech",
+      "bio": "Founder of Equal, a fintech platform aimed at making financial products accessible and equitable.",
+      "image_url": "https://example.com/images/keshav_reddy.jpg",
+      "profile_url": "https://www.linkedin.com/in/keshavreddyd/"
+    },
+    {
+      "name": "Tanushri Biyani",
+      "age_started": 23,
+      "company": "Anaar",
+      "sector": "Fashion / E-commerce",
+      "bio": "Founder of Anaar, a contemporary fashion brand known for its vibrant prints and designs.",
+      "image_url": "https://example.com/images/tanushri_biyani.jpg",
+      "profile_url": "https://www.anaarstudio.com"
+    },
+    {
+      "name": "Kishan Panpalia",
+      "age_started": 21,
+      "company": "Pepper Content",
+      "sector": "Technology / Marketing",
+      "bio": "Founder and CEO of Pepper Content, a content marketing platform that connects businesses with creators.",
+      "image_url": "https://example.com/images/kishan_panpalia.jpg",
+      "profile_url": "https://peppercontent.io"
+    },
+    {
+      "name": "Raj Shamani",
+      "age_started": 22,
+      "company": "House of X",
+      "sector": "Media / Content",
+      "bio": "Founder of House of X, a media and content creation house. Also a renowned keynote speaker.",
+      "image_url": "https://example.com/images/raj_shamani.jpg",
+      "profile_url": "https://www.rajshamani.com"
+    },
+    {
+      "name": "Nikita Tiwari",
+      "age_started": 20,
+      "company": "NEERX",
+      "sector": "Technology / Water Management",
+      "bio": "Co-founder of NEERX, a tech startup focused on innovative solutions for water conservation and management.",
+      "image_url": "https://example.com/images/nikita_tiwari.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Harsh Agrawal",
+      "age_started": 20,
+      "company": "NEERX",
+      "sector": "Technology / Water Management",
+      "bio": "Co-founder of NEERX, working on technology-driven projects to solve water scarcity issues.",
+      "image_url": "https://example.com/images/harsh_agrawal.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Rithika Pandey",
+      "age_started": 19,
+      "company": "Independent Artist & Entrepreneur",
+      "sector": "Arts / Fashion",
+      "bio": "A multidisciplinary artist and entrepreneur whose work has been featured in international publications and fashion weeks.",
+      "image_url": "https://example.com/images/rithika_pandey.jpg",
+      "profile_url": "https://www.instagram.com/rithikapandey/"
+    },
+    {
+      "name": "Udit Singhal",
+      "age_started": 21,
+      "company": "Glass2Sand",
+      "sector": "Sustainability / Waste Management",
+      "bio": "Founder of Glass2Sand, an initiative that crushes glass bottles into sand to reduce landfill waste and conserve natural resources.",
+      "image_url": "https://example.com/images/udit_singhal.jpg",
+      "profile_url": "https://glass2sand.com"
+    },
+    {
+      "name": "Akshay Makar",
+      "age_started": 22,
+      "company": "House of X",
+      "sector": "Media / Content",
+      "bio": "Co-founder involved in building the House of X media and content ecosystem.",
+      "image_url": "https://example.com/images/akshay_makar.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Ankit Alok Bagaria",
+      "age_started": 22,
+      "company": "WittyFeed (Exited)",
+      "sector": "Digital Media",
+      "bio": "Co-founder of WittyFeed, one of India's largest viral content platforms, which was later acquired.",
+      "image_url": "https://example.com/images/ankit_bagaria.jpg",
+      "profile_url": "https://www.linkedin.com/in/ankitalokbagaria/"
+    },
+    {
+      "name": "Abhi Gawri",
+      "age_started": 22,
+      "company": "WittyFeed (Exited)",
+      "sector": "Digital Media",
+      "bio": "Co-founder of WittyFeed, a digital media giant that redefined viral content in India.",
+      "image_url": "https://example.com/images/abhi_gawri.jpg",
+      "profile_url": "https://www.linkedin.com/in/abhigawri/"
+    },
+    {
+      "name": "Viraj Khanna",
+      "age_started": 22,
+      "company": "House of X",
+      "sector": "Media / Content",
+      "bio": "Creative lead and co-founder at House of X, focusing on brand strategy and content creation.",
+      "image_url": "https://example.com/images/viraj_khanna.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Spriha Biswas",
+      "age_started": 22,
+      "company": "House of X",
+      "sector": "Media / Content",
+      "bio": "Key member and co-founder of the House of X content collective.",
+      "image_url": "https://example.com/images/spriha_biswas.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Ankush Grover",
+      "age_started": 23,
+      "company": "Rebel Foods",
+      "sector": "Food Technology / Cloud Kitchens",
+      "bio": "Co-founder and former CEO of Rebel Foods, a global leader in internet restaurants and cloud kitchens.",
+      "image_url": "https://example.com/images/ankush_grover.jpg",
+      "profile_url": "https://www.rebelfoods.co"
+    },
+    {
+      "name": "Anmol Singh Jaggi",
+      "age_started": 22,
+      "company": "Gensol Engineering",
+      "sector": "Clean Energy / Engineering",
+      "bio": "Co-founder and CEO of Gensol Engineering, a prominent player in the solar energy and engineering consulting sector.",
+      "image_url": "https://example.com/images/anmol_jaggi.jpg",
+      "profile_url": "https://gensolengineering.com"
+    },
+    {
+      "name": "Arjun Juneja",
+      "age_started": 23,
+      "company": "Mankind Pharma",
+      "sector": "Pharmaceuticals",
+      "bio": "Chief Operating Officer (COO) of Mankind Pharma, a leading Indian pharmaceutical company.",
+      "image_url": "https://example.com/images/arjun_juneja.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Arun Vinayak",
+      "age_started": 22,
+      "company": "Exponent Energy",
+      "sector": "Clean Energy / Electric Vehicles",
+      "bio": "Co-founder and CEO of Exponent Energy, creating rapid charging solutions for electric vehicles.",
+      "image_url": "https://example.com/images/arun_vinayak.jpg",
+      "profile_url": "https://www.exponent.energy"
+    },
+    {
+      "name": "Deepak Chahar",
+      "age_started": 22,
+      "company": "JCDC Sports",
+      "sector": "Sports Management",
+      "bio": "Indian cricketer and co-founder of JCDC Sports, a sports management and training venture.",
+      "image_url": "https://example.com/images/deepak_chahar.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Devansh Jain",
+      "age_started": 22,
+      "company": "INOXGFL Group",
+      "sector": "Industrial Gases / Chemicals",
+      "bio": "Executive Director of INOXGFL Group, a major industrial gases and chemicals conglomerate.",
+      "image_url": "https://example.com/images/devansh_jain.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Harshad Reddy",
+      "age_started": 23,
+      "company": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "bio": "Director of Group Oncology at Apollo Hospitals, leading initiatives in cancer care.",
+      "image_url": "https://example.com/images/harshad_reddy.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "G Sathya",
+      "age_started": 22,
+      "company": "Techvoyager",
+      "sector": "Technology Services",
+      "bio": "Founder of Techvoyager, a technology services and consulting firm.",
+      "image_url": "https://example.com/images/g_sathya.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "M Revathi",
+      "age_started": 22,
+      "company": "Magnitudo Technologies",
+      "sector": "Technology",
+      "bio": "Founder of Magnitudo Technologies, focusing on software development and IT solutions.",
+      "image_url": "https://example.com/images/m_revathi.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Madhu Nachammai",
+      "age_started": 22,
+      "company": "The Thenus",
+      "sector": "Fashion / E-commerce",
+      "bio": "Founder of The Thenus, an ethnic wear and fashion brand.",
+      "image_url": "https://example.com/images/madhu_nachammai.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Ananya Birla",
+      "age_started": 17,
+      "company": "Svatantra Microfin",
+      "sector": "Microfinance / Financial Services",
+      "bio": "Founder of Svatantra Microfin, a microfinance institution empowering women entrepreneurs in rural India.",
+      "image_url": "https://example.com/images/ananya_birla_1.jpg",
+      "profile_url": "https://www.svatantramicrofin.com"
+    },
+    {
+      "name": "Prajal Regmi",
+      "age_started": 20,
+      "company": "Ripra Clothing",
+      "sector": "Fashion / E-commerce",
+      "bio": "Founder of Ripra Clothing, a contemporary streetwear and fashion brand.",
+      "image_url": "https://example.com/images/prajal_regmi.jpg",
+      "profile_url": "https://www.ripra.in"
+    },
+    {
+      "name": "Rhea Singh",
+      "age_started": 22,
+      "company": "GreenCharge",
+      "sector": "Clean Energy / EV Charging",
+      "bio": "Co-founder of GreenCharge, developing infrastructure for electric vehicle charging stations.",
+      "image_url": "https://example.com/images/rhea_singh.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Priya Joshi",
+      "age_started": 22,
+      "company": "GreenCharge",
+      "sector": "Clean Energy / EV Charging",
+      "bio": "Co-founder of GreenCharge, working on sustainable energy solutions for transportation.",
+      "image_url": "https://example.com/images/priya_joshi.jpg",
+      "profile_url": null
+    },
+    {
+      "name": "Ritesh Agarwal",
+      "age_started": 19,
+      "company": "OYO Rooms",
+      "sector": "Hospitality / Technology",
+      "bio": "Founder and CEO of OYO Rooms, one of the world's fastest-growing hospitality chains.",
+      "image_url": "https://example.com/images/ritesh_agarwal.jpg",
+      "profile_url": "https://www.oyorooms.com"
+    },
+    {
+      "name": "Bhavish Aggarwal",
+      "age_started": 24,
+      "company": "Ola Cabs",
+      "sector": "Transportation / Technology",
+      "bio": "Co-founder and CEO of Ola Cabs, India's largest ride-hailing service, and Krutrim AI.",
+      "image_url": "https://example.com/images/bhavish_aggarwal.jpg",
+      "profile_url": "https://www.olacabs.com"
+    },
+    {
+      "name": "Divyank Turakhia",
+      "age_started": 16,
+      "company": "Media.net",
+      "sector": "Advertising Technology",
+      "bio": "Serial entrepreneur who sold his ad-tech company Media.net for $900 million, one of the largest tech exits.",
+      "image_url": "https://example.com/images/divyank_turakhia.jpg",
+      "profile_url": "https://www.linkedin.com/in/divyankturakhia/"
+    },
+    {
+      "name": "Suhas Gopinath",
+      "age_started": 14,
+      "company": "Globals Inc.",
+      "sector": "Technology Services",
+      "bio": "Became the world's youngest CEO at 14, founding Globals Inc., an IT services company.",
+      "image_url": "https://example.com/images/suhas_gopinath.jpg",
+      "profile_url": "https://www.globalsinc.com"
+    },
+    {
+      "name": "Trishneet Arora",
+      "age_started": 19,
+      "company": "TAC Security",
+      "sector": "Cybersecurity",
+      "bio": "Founder and CEO of TAC Security, a leading cybersecurity firm and author of books on ethical hacking.",
+      "image_url": "https://example.com/images/trishneet_arora.jpg",
+      "profile_url": "https://tacsecurity.com"
+    },
+    {
+      "name": "Falguni Nayar",
+      "age_started": 49,
+      "company": "Nykaa",
+      "sector": "E-commerce / Beauty",
+      "bio": "Left a lucrative banking career to start Nykaa, which became a multi-billion dollar beauty e-commerce giant. (Included for inspirational context)",
+      "image_url": "https://example.com/images/falguni_nayar.jpg",
+      "profile_url": "https://www.nykaa.com"
+    },
+    {
+      "name": "Vidit Aatrey",
+      "age_started": 25,
+      "company": "Meesho",
+      "sector": "E-commerce / Social Commerce",
+      "bio": "Co-founder and CEO of Meesho, a platform that enables resellers to start businesses via social media.",
+      "image_url": "https://example.com/images/vidit_aatrey.jpg",
+      "profile_url": "https://www.meesho.com"
+    },
+    {
+      "name": "Sanjeev Bikhchandani",
+      "age_started": 25,
+      "company": "Info Edge (Naukri.com)",
+      "sector": "Internet / Recruiting",
+      "bio": "Founder of Info Edge, the parent company of Naukri.com, a pioneer in Indian internet businesses. (Included for inspirational context)",
+      "image_url": "https://example.com/images/sanjeev_bikhchandani.jpg",
+      "profile_url": "https://www.infoedge.in"
+    },
+    {
+      "name": "Nithin Kamath",
+      "age_started": 20,
+      "company": "Zerodha",
+      "sector": "FinTech / Stock Broking",
+      "bio": "Co-founder and CEO of Zerodha, India's largest discount stockbroker, revolutionizing retail investing.",
+      "image_url": "https://example.com/images/nithin_kamath.jpg",
+      "profile_url": "https://zerodha.com"
+    },
+    {
+      "name": "Deepinder Goyal",
+      "age_started": 25,
+      "company": "Zomato",
+      "sector": "Food Technology",
+      "bio": "Co-founder and CEO of Zomato, a global food delivery and restaurant discovery platform.",
+      "image_url": "https://example.com/images/deepinder_goyal.jpg",
+      "profile_url": "https://www.zomato.com"
+    },
+    {
+      "name": "Kunal Bahl",
+      "age_started": 24,
+      "company": "Snapdeal",
+      "sector": "E-commerce",
+      "bio": "Co-founder and CEO of Snapdeal, one of India's largest e-commerce marketplaces.",
+      "image_url": "https://example.com/images/kunal_bahl.jpg",
+      "profile_url": "https://www.snapdeal.com"
+    },
+    {
+      "name": "Rohit Bansal",
+      "age_started": 24,
+      "company": "Snapdeal",
+      "sector": "E-commerce",
+      "bio": "Co-founder of Snapdeal, building it into a major player in Indian e-commerce.",
+      "image_url": "https://example.com/images/rohit_bansal.jpg",
+      "profile_url": "https://www.snapdeal.com"
+    },
+    {
+      "name": "Shradha Sharma",
+      "age_started": 27,
+      "company": "YourStory",
+      "sector": "Media / Entrepreneurship",
+      "bio": "Founder and CEO of YourStory, India's leading platform for startup and entrepreneur stories.",
+      "image_url": "https://example.com/images/shradha_sharma.jpg",
+      "profile_url": "https://yourstory.com"
+    },
+    {
+      "name": "Aakriti Shrivastava",
+      "age_started": 22,
+      "company": "Pep",
+      "sector": "Consumer Goods",
+      "bio": "Co-founder of Pep, a D2C brand focused on modern, sustainable household products.",
+      "image_url": "https://example.com/images/aakriti_shrivastava.jpg",
+      "profile_url": "https://pep.co.in"
+    },
+    {
+      "name": "Aryan Sharma",
+      "age_started": 22,
+      "company": "Pep",
+      "sector": "Consumer Goods",
+      "bio": "Co-founder of Pep, building a new-age brand for Indian households.",
+      "image_url": "https://example.com/images/aryan_sharma.jpg",
+      "profile_url": "https://pep.co.in"
+    },
+    {
+      "name": "Aman Gupta",
+      "age_started": 25,
+      "company": "boAt",
+      "sector": "Consumer Electronics",
+      "bio": "Co-founder and CMO of boAt, a lifestyle brand that became a dominant player in audio wearables and electronics.",
+      "image_url": "https://example.com/images/aman_gupta.jpg",
+      "profile_url": "https://www.boat-lifestyle.com"
+    }
+  ]
+}
