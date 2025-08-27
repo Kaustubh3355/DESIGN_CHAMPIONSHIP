@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kidereprenuer</title>
+  <link rel="stylesheet" href="id.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <style>
+    .swiper {
+      width: 100%;
+      padding: 50px 0;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: 300px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .name {
+      font-size: 1.2em;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    .company {
+      color: #0073e6;
+      font-size: 0.95em;
+      margin-bottom: 5px;
+    }
+    .sector {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .bio {
+      font-size: 0.85em;
+      color: #333;
+      margin-bottom: 12px;
+    }
+    .profile a {
+      text-decoration: none;
+      color: white;
+      background: #0073e6;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .profile a:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+      <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#ideas">IDEAS</a></li>
+          <li><a href="#project-submit">SUBMIT PROJECTS</a></li>
+      </ul>
+  </nav> 
+
+  <section class="hero">
+      <h1>Big things start small</h1>
+      <h6>Here are bunch of young entrepreneurs who struggled and started their business</h6>
+  </section>
+
+  <!-- Swiper Container -->
+  <div class="swiper mySwiper">
+    <h1 class="heading">People Who started Young and Struggled</h1>
+    <div class="swiper-wrapper" id="entrepreneursContainer"></div>
+    
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <section class="yng"></section>
+  <section class="some"></section>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Fetch JSON from external file
+    fetch("entrepruner.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("entrepreneursContainer");
+
+        data.entrepreneurs.forEach(person => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide";
+
+          slide.innerHTML = `
+            <div class="card">
+              <img src="${person.image_url}" alt="${person.name}">
+              <div class="name">${person.name}</div>
+              <div class="company">${person.company}</div>
+              <div class="sector">${person.sector}</div>
+              <div class="bio">${person.bio}</div>
+              ${person.profile_url ? `<div class="profile"><a href="${person.profile_url}" target="_blank">View Profile</a></div>` : ""}
+            </div>
+          `;
+
+          container.appendChild(slide);
+        });
+
+        // Initialize Swiper after data loads
+        new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            0: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+          }
+        });
+      })
+      .catch(error => console.error("Error loading JSON:", error));
+  </script>
+</body>
+</html>
